@@ -3,25 +3,12 @@ package com.pboreg;
 public class Main {
 
     public static void main(String[] args) {
-//        do {
-//            aksi
-//        }while (kondisi);
-
-        System.out.println("ini adalah awal program");
-
-        int a = 0;
-        boolean kondisi = true;
-
-
-        do {
-            a++;
-            System.out.println("do while ke-" + a);
-
-            if (a == 10){
-                kondisi = false;
-            }
-        }while(kondisi);
-
-        System.out.println("ini adalah akhir program");
+	// write your code here
+        // untuk mencetak angka ganjil i = 1
+        // untuk menambahkan angka genap i = 0
+        for (int i = 0; i <= 10; i = i+2){
+            System.out.print(i + " ");
+        // i + "(spasi)" agar ada spasi di tampilannya
+        }
     }
 }
